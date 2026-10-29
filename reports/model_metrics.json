@@ -1,0 +1,139 @@
+{
+  "naive_bayes": {
+    "best_params": {
+      "clf__alpha": 0.3
+    },
+    "cv_f1_mean": 0.9047,
+    "cv_f1_std": 0.0044,
+    "accuracy": 0.9109,
+    "precision": 0.9088,
+    "recall": 0.9304,
+    "f1": 0.9195,
+    "f1_macro": 0.9099,
+    "roc_auc": 0.9692,
+    "avg_precision": 0.9737,
+    "confusion_matrix": [
+      [
+        465,
+        59
+      ],
+      [
+        44,
+        588
+      ]
+    ],
+    "train_time_s": 1.44,
+    "predict_ms_per_sample": 0.0115,
+    "report": {
+      "Not-Bullying": {
+        "precision": 0.9135559921414538,
+        "recall": 0.8874045801526718,
+        "f1-score": 0.9002904162633107,
+        "support": 524.0
+      },
+      "Bullying": {
+        "precision": 0.9088098918083463,
+        "recall": 0.930379746835443,
+        "f1-score": 0.9194683346364347,
+        "support": 632.0
+      },
+      "accuracy": 0.9108996539792388,
+      "macro avg": {
+        "precision": 0.9111829419749,
+        "recall": 0.9088921634940574,
+        "f1-score": 0.9098793754498727,
+        "support": 1156.0
+      },
+      "weighted avg": {
+        "precision": 0.9109612383261215,
+        "recall": 0.9108996539792388,
+        "f1-score": 0.9107752297683404,
+        "support": 1156.0
+      }
+    },
+    "recall_by_category": {
+      "Ethnicity": 1.0,
+      "Political": 0.9796,
+      "Religion": 1.0,
+      "Sexual": 0.9214,
+      "Threat": 0.9444,
+      "Troll": 0.8675,
+      "Unspecified": 1.0,
+      "Vocational": 0.9091
+    }
+  },
+  "logreg": {
+    "best_params": {
+      "clf__C": 5
+    },
+    "cv_f1_mean": 0.8985,
+    "cv_f1_std": 0.003,
+    "accuracy": 0.9144,
+    "precision": 0.9145,
+    "recall": 0.9304,
+    "f1": 0.9224,
+    "f1_macro": 0.9134,
+    "roc_auc": 0.9666,
+    "avg_precision": 0.9686,
+    "confusion_matrix": [
+      [
+        469,
+        55
+      ],
+      [
+        44,
+        588
+      ]
+    ],
+    "train_time_s": 0.9,
+    "predict_ms_per_sample": 0.0116,
+    "report": {
+      "Not-Bullying": {
+        "precision": 0.9142300194931774,
+        "recall": 0.8950381679389313,
+        "f1-score": 0.9045323047251688,
+        "support": 524.0
+      },
+      "Bullying": {
+        "precision": 0.9144634525660964,
+        "recall": 0.930379746835443,
+        "f1-score": 0.9223529411764706,
+        "support": 632.0
+      },
+      "accuracy": 0.9143598615916955,
+      "macro avg": {
+        "precision": 0.9143467360296369,
+        "recall": 0.9127089573871872,
+        "f1-score": 0.9134426229508197,
+        "support": 1156.0
+      },
+      "weighted avg": {
+        "precision": 0.9143576403427318,
+        "recall": 0.9143598615916955,
+        "f1-score": 0.9142750748265724,
+        "support": 1156.0
+      }
+    },
+    "recall_by_category": {
+      "Ethnicity": 0.9615,
+      "Political": 0.9898,
+      "Religion": 1.0,
+      "Sexual": 0.9071,
+      "Threat": 0.9722,
+      "Troll": 0.894,
+      "Unspecified": 1.0,
+      "Vocational": 0.8788
+    }
+  },
+  "mcnemar": {
+    "only_nb_correct": 23,
+    "only_logreg_correct": 27,
+    "statistic": 0.18,
+    "p_value": 0.6714
+  },
+  "split": {
+    "train": 4622,
+    "test": 1156,
+    "test_bullying_share": 0.5467
+  }
+}

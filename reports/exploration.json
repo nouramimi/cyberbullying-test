@@ -1,0 +1,79 @@
+{
+  "raw": {
+    "shape": [
+      8452,
+      3
+    ],
+    "dtypes": {
+      "Text": "str",
+      "Label": "str",
+      "Types": "str"
+    },
+    "nulls": {
+      "Text": 0,
+      "Label": 2,
+      "Types": 3627
+    },
+    "duplicated_rows": 2191,
+    "duplicated_texts": 2472,
+    "n_raw_label_variants": 19,
+    "n_raw_type_variants": 24,
+    "raw_label_counts": {
+      "Bullying": 3020,
+      "Not-Bullying": 2752,
+      "Bullying ": 1805,
+      "Not- Bullying ": 270,
+      "Not-Bullying ": 252,
+      "Not Bullying ": 242,
+      "Not-Bulllying": 31,
+      "Not-Bulying": 30,
+      "Not-Bulyying": 21,
+      "Not - Bullying": 5,
+      "Not -Bullying": 4,
+      "Not -Bullying ": 4,
+      "Not bullying ": 4,
+      "Bullying.": 3,
+      "Bullyinfg": 3,
+      "NaN": 2,
+      "Bullyiing": 1,
+      "Not- Bullying": 1,
+      "Bullyibg": 1,
+      "Bullying  ": 1
+    },
+    "raw_type_counts": {
+      "NaN": 3627,
+      "Sexual": 987,
+      "Troll": 948,
+      "Political": 734,
+      "Vocational": 670,
+      "Religion": 649,
+      "Threat": 193,
+      "Ethnicity": 169,
+      "Threats ": 157,
+      "Vocational ": 79,
+      "Religion ": 48,
+      "Religon": 45,
+      "Sexual ": 36,
+      "Ethnicity ": 31,
+      "Threats": 23,
+      "Political ": 20,
+      "Religious ": 10,
+      "Troll ": 7,
+      "sexual": 6,
+      "Racism": 4,
+      "political ": 3,
+      "Vocation": 2,
+      "Saxual": 2,
+      "Ethnically ": 1,
+      "Threat ": 1
+    }
+  },
+  "cleaning_log": {
+    "rows_raw": 8452,
+    "after_empty_text": 8452,
+    "dropped_missing_label": 2,
+    "dropped_conflicting_label_rows": 304,
+    "dropped_duplicates": 2368,
+    "rows_clean": 5778
+  }
+}

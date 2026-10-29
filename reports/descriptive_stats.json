@@ -1,0 +1,250 @@
+{
+  "n_comments": 5778,
+  "label_counts": {
+    "Bullying": 3160,
+    "Not-Bullying": 2618
+  },
+  "label_pct": {
+    "Bullying": 54.69,
+    "Not-Bullying": 45.31
+  },
+  "category_counts": {
+    "Troll": 810,
+    "Sexual": 665,
+    "Vocational": 468,
+    "Political": 464,
+    "Religion": 405,
+    "Threat": 198,
+    "Ethnicity": 125,
+    "Unspecified": 25
+  },
+  "category_pct_of_bullying": {
+    "Troll": 25.63,
+    "Sexual": 21.04,
+    "Vocational": 14.81,
+    "Political": 14.68,
+    "Religion": 12.82,
+    "Threat": 6.27,
+    "Ethnicity": 3.96,
+    "Unspecified": 0.79
+  },
+  "length_by_label": {
+    "Bullying": {
+      "n_chars": {
+        "count": 3160.0,
+        "mean": 55.17,
+        "std": 28.88,
+        "min": 3.0,
+        "25%": 33.0,
+        "50%": 51.0,
+        "75%": 76.0,
+        "max": 229.0
+      },
+      "n_words": {
+        "count": 3160.0,
+        "mean": 9.36,
+        "std": 4.47,
+        "min": 1.0,
+        "25%": 6.0,
+        "50%": 9.0,
+        "75%": 12.0,
+        "max": 43.0
+      }
+    },
+    "Not-Bullying": {
+      "n_chars": {
+        "count": 2618.0,
+        "mean": 55.48,
+        "std": 29.59,
+        "min": 4.0,
+        "25%": 30.0,
+        "50%": 54.0,
+        "75%": 75.0,
+        "max": 309.0
+      },
+      "n_words": {
+        "count": 2618.0,
+        "mean": 9.73,
+        "std": 5.02,
+        "min": 1.0,
+        "25%": 5.0,
+        "50%": 10.0,
+        "75%": 13.0,
+        "max": 52.0
+      }
+    }
+  },
+  "mean_words_by_category": {
+    "Ethnicity": 9.61,
+    "Political": 11.82,
+    "Religion": 10.98,
+    "Sexual": 7.5,
+    "Threat": 7.12,
+    "Troll": 10.03,
+    "Unspecified": 10.0,
+    "Vocational": 7.82
+  },
+  "top_words_bullying": {
+    "you're": 315,
+    "political": 159,
+    "religious": 151,
+    "i'm": 143,
+    "religion": 132,
+    "post": 128,
+    "humor": 91,
+    "comedy": 89,
+    "make": 80,
+    "instagram": 77,
+    "can't": 75,
+    "leaders": 72,
+    "want": 72,
+    "don't": 71,
+    "people": 69,
+    "public": 66,
+    "laughter": 65,
+    "it's": 59,
+    "life": 59,
+    "fuck": 54
+  },
+  "top_words_not_bullying": {
+    "you're": 192,
+    "love": 159,
+    "it's": 150,
+    "i'm": 130,
+    "world": 124,
+    "content": 124,
+    "beauty": 123,
+    "videos": 119,
+    "channel": 118,
+    "positivity": 108,
+    "make": 102,
+    "life": 101,
+    "inspiration": 96,
+    "day": 94,
+    "beautiful": 85,
+    "you've": 82,
+    "thank": 81,
+    "passion": 81,
+    "video": 72,
+    "look": 71
+  },
+  "top_bigrams_bullying": {
+    "political leaders": 45,
+    "you're reason": 31,
+    "religious leaders": 24,
+    "i'm critical": 23,
+    "i'm concerned": 23,
+    "sense humor": 23,
+    "i'm skeptical": 22,
+    "religious institutions": 22,
+    "leaders prioritize": 20,
+    "mental health": 18,
+    "concerned historical": 17,
+    "i'm going": 17,
+    "make sure": 16,
+    "religion lead": 15,
+    "religious claims": 15
+  },
+  "top_words_by_category": {
+    "Ethnicity": {
+      "people": 14,
+      "nigga": 13,
+      "country": 11,
+      "fuck": 11,
+      "white": 10,
+      "nigger": 8,
+      "society": 8,
+      "work": 7,
+      "hard": 6,
+      "dumb": 6
+    },
+    "Political": {
+      "political": 152,
+      "public": 61,
+      "undermines": 51,
+      "leaders": 48,
+      "government": 47,
+      "lack": 38,
+      "erosion": 34,
+      "neglect": 31,
+      "trust": 31,
+      "threatens": 29
+    },
+    "Religion": {
+      "religious": 150,
+      "religion": 130,
+      "i'm": 73,
+      "critical": 36,
+      "fear": 36,
+      "historical": 34,
+      "muslims": 25,
+      "leaders": 24,
+      "concerned": 23,
+      "skeptical": 23
+    },
+    "Sexual": {
+      "you're": 52,
+      "want": 52,
+      "sexual": 47,
+      "make": 40,
+      "i'll": 38,
+      "sex": 38,
+      "can't": 34,
+      "fuck": 32,
+      "hot": 31,
+      "love": 29
+    },
+    "Threat": {
+      "you're": 33,
+      "kill": 12,
+      "life": 10,
+      "i'm": 8,
+      "don't": 7,
+      "loser": 7,
+      "make": 7,
+      "killed": 7,
+      "say": 7,
+      "shoes": 6
+    },
+    "Troll": {
+      "post": 126,
+      "you're": 121,
+      "comedy": 89,
+      "humor": 86,
+      "instagram": 76,
+      "laughter": 65,
+      "laugh": 42,
+      "posts": 40,
+      "day": 36,
+      "reason": 34
+    },
+    "Vocational": {
+      "you're": 102,
+      "job": 28,
+      "work": 26,
+      "health": 19,
+      "you'll": 19,
+      "economy": 18,
+      "it's": 17,
+      "life": 17,
+      "difficult": 15,
+      "going": 15
+    }
+  },
+  "share_with_exclamation": {
+    "Bullying": 0.162,
+    "Not-Bullying": 0.119
+  },
+  "share_with_question": {
+    "Bullying": 0.039,
+    "Not-Bullying": 0.009
+  },
+  "share_uppercase_word": {
+    "Bullying": 0.021,
+    "Not-Bullying": 0.003
+  },
+  "share_with_mention": {
+    "Bullying": 0.001,
+    "Not-Bullying": 0.0
+  }
+}

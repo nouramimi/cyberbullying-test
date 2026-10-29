@@ -1,0 +1,36 @@
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      retries: 5
+
+  # Exécute le pipeline complet (nettoyage -> MongoDB -> analyse -> modèles -> figures) puis s'arrête
+  pipeline:
+    build: .
+    command: python run_pipeline.py
+    environment:
+      MONGO_URI: mongodb://mongo:27017
+    depends_on:
+      mongo:
+        condition: service_healthy
+    volumes:
+      - ./reports:/srv/reports
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      MONGO_URI: mongodb://mongo:27017
+    depends_on:
+      mongo:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  mongo_data:
